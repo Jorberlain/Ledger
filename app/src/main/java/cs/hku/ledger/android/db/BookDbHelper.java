@@ -25,15 +25,15 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema.BookEntry;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.db.adapter.SplitsDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.model.Book;
-import org.gnucash.android.util.RecursiveMoveFiles;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema.BookEntry;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.db.adapter.SplitsDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.model.Book;
+import cs.hku.ledger.android.util.RecursiveMoveFiles;
 
 import java.io.File;
 import java.io.IOException;

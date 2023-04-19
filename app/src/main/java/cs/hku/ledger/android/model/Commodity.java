@@ -15,8 +15,8 @@
  */
 package cs.hku.ledger.android.model;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
 
 /**
  * Commodities are the currencies used in the application.

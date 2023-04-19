@@ -25,13 +25,13 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseHelper;
-import org.gnucash.android.db.DatabaseSchema.BookEntry;
-import org.gnucash.android.model.Book;
-import org.gnucash.android.ui.settings.PreferenceActivity;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseHelper;
+import cs.hku.ledger.android.db.DatabaseSchema.BookEntry;
+import cs.hku.ledger.android.model.Book;
+import cs.hku.ledger.android.ui.settings.PreferenceActivity;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -40,16 +40,16 @@ import android.widget.TextView;
 
 import com.uservoice.uservoicesdk.UserVoice;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.ui.account.AccountsActivity;
-import org.gnucash.android.ui.passcode.PasscodeLockActivity;
-import org.gnucash.android.ui.report.ReportsActivity;
-import org.gnucash.android.ui.settings.PreferenceActivity;
-import org.gnucash.android.ui.transaction.ScheduledActionsActivity;
-import org.gnucash.android.util.BookUtils;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.ui.account.AccountsActivity;
+import cs.hku.ledger.android.ui.passcode.PasscodeLockActivity;
+import cs.hku.ledger.android.ui.report.ReportsActivity;
+import cs.hku.ledger.android.ui.settings.PreferenceActivity;
+import cs.hku.ledger.android.ui.transaction.ScheduledActionsActivity;
+import cs.hku.ledger.android.util.BookUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

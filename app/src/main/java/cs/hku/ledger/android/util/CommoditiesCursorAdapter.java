@@ -24,8 +24,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
 
 /**
  * Cursor adapter for displaying list of commodities.

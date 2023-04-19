@@ -31,12 +31,12 @@ import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.highlight.Highlight;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.model.Account;
-import org.gnucash.android.ui.report.BaseReportFragment;
-import org.gnucash.android.ui.report.ReportType;
-import org.gnucash.android.ui.report.ReportsActivity;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.model.Account;
+import cs.hku.ledger.android.ui.report.BaseReportFragment;
+import cs.hku.ledger.android.ui.report.ReportType;
+import cs.hku.ledger.android.ui.report.ReportsActivity;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -18,8 +18,8 @@ package cs.hku.ledger.android.export;
 
 import android.net.Uri;
 
-import org.gnucash.android.ui.export.ExportFormFragment;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.ui.export.ExportFormFragment;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.sql.Timestamp;
 

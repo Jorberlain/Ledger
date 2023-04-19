@@ -23,9 +23,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.ui.common.UxArgument;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.ui.common.UxArgument;
 
 /**
  * Activity for displaying and managing the passcode lock screen.

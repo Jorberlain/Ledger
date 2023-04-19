@@ -36,8 +36,8 @@ import com.crashlytics.android.core.CrashlyticsCore;
 import com.uservoice.uservoicesdk.Config;
 import com.uservoice.uservoicesdk.UserVoice;
 
-import cs.hku.ledger.android.BuildConfig;
-import cs.hku.ledger.android.R;
+import cs.hku.ledger.BuildConfig;
+import cs.hku.ledger.R;
 import cs.hku.ledger.android.db.BookDbHelper;
 import cs.hku.ledger.android.db.DatabaseHelper;
 import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;

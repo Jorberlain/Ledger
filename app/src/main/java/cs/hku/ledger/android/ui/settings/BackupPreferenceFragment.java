@@ -44,13 +44,13 @@ import com.google.android.gms.drive.Drive;
 import com.google.android.gms.drive.DriveFolder;
 import com.google.android.gms.drive.MetadataChangeSet;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.importer.ImportAsyncTask;
-import org.gnucash.android.ui.settings.dialog.OwnCloudDialogFragment;
-import org.gnucash.android.util.BackupManager;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.importer.ImportAsyncTask;
+import cs.hku.ledger.android.ui.settings.dialog.OwnCloudDialogFragment;
+import cs.hku.ledger.android.util.BackupManager;
 
 import java.io.File;
 import java.text.DateFormat;

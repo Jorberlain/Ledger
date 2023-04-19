@@ -31,18 +31,18 @@ import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
-import org.gnucash.android.export.ExportAsyncTask;
-import org.gnucash.android.export.ExportFormat;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.ui.account.AccountsActivity;
-import org.gnucash.android.ui.settings.dialog.DeleteAllAccountsConfirmationDialog;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.export.ExportAsyncTask;
+import cs.hku.ledger.android.export.ExportFormat;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.ui.account.AccountsActivity;
+import cs.hku.ledger.android.ui.settings.dialog.DeleteAllAccountsConfirmationDialog;
 
 import java.util.ArrayList;
 import java.util.List;

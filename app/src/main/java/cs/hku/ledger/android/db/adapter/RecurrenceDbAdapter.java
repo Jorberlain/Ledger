@@ -22,9 +22,9 @@ import android.database.sqlite.SQLiteStatement;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.model.PeriodType;
-import org.gnucash.android.model.Recurrence;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.model.PeriodType;
+import cs.hku.ledger.android.model.Recurrence;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
-import static org.gnucash.android.db.DatabaseSchema.RecurrenceEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.RecurrenceEntry;
 
 /**
  * Database adapter for {@link Recurrence} entries

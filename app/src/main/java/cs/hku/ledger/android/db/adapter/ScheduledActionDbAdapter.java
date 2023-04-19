@@ -22,15 +22,15 @@ import android.database.sqlite.SQLiteStatement;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.model.Recurrence;
-import org.gnucash.android.model.ScheduledAction;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.model.Recurrence;
+import cs.hku.ledger.android.model.ScheduledAction;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.gnucash.android.db.DatabaseSchema.ScheduledActionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.ScheduledActionEntry;
 
 /**
  * Database adapter for fetching/saving/modifying scheduled events

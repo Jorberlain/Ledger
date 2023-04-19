@@ -16,7 +16,7 @@
 
 package cs.hku.ledger.android.model;
 
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.sql.Timestamp;
 import java.util.UUID;

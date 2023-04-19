@@ -19,12 +19,12 @@ package cs.hku.ledger.android.ui.report;
 import android.content.Context;
 import android.support.annotation.ColorRes;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.ui.report.barchart.StackedBarChartFragment;
-import org.gnucash.android.ui.report.linechart.CashFlowLineChartFragment;
-import org.gnucash.android.ui.report.piechart.PieChartFragment;
-import org.gnucash.android.ui.report.sheet.BalanceSheetFragment;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.ui.report.barchart.StackedBarChartFragment;
+import cs.hku.ledger.android.ui.report.linechart.CashFlowLineChartFragment;
+import cs.hku.ledger.android.ui.report.piechart.PieChartFragment;
+import cs.hku.ledger.android.ui.report.sheet.BalanceSheetFragment;
 
 import java.util.ArrayList;
 import java.util.HashMap;

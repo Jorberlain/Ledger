@@ -28,15 +28,15 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.ui.common.Refreshable;
-import org.gnucash.android.ui.common.UxArgument;
-import org.gnucash.android.ui.homescreen.WidgetConfigurationActivity;
-import org.gnucash.android.ui.transaction.TransactionsActivity;
-import org.gnucash.android.util.QualifiedAccountNameCursorAdapter;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.ui.common.Refreshable;
+import cs.hku.ledger.android.ui.common.UxArgument;
+import cs.hku.ledger.android.ui.homescreen.WidgetConfigurationActivity;
+import cs.hku.ledger.android.ui.transaction.TransactionsActivity;
+import cs.hku.ledger.android.util.QualifiedAccountNameCursorAdapter;
 
 /**
  * Dialog fragment for moving transactions from one account to another

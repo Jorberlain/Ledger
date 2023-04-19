@@ -25,8 +25,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import org.gnucash.android.R;
-import org.gnucash.android.ui.colorpicker.ColorPickerSwatch.OnColorSelectedListener;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.ui.colorpicker.ColorPickerSwatch.OnColorSelectedListener;
 
 /**
  * A dialog which takes in as input an array of colors and creates a palette allowing the user to

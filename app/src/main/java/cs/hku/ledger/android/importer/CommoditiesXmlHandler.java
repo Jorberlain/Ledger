@@ -17,10 +17,10 @@ package cs.hku.ledger.android.importer;
 
 import android.database.sqlite.SQLiteDatabase;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
-import org.gnucash.android.db.adapter.DatabaseAdapter;
-import org.gnucash.android.model.Commodity;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.db.adapter.DatabaseAdapter;
+import cs.hku.ledger.android.model.Commodity;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;

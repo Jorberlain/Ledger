@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="ofx" path="OFX/" />
+    <cache-path name="qif" path="QIF/" />
+    <cache-path name="xml" path="XML/" />
+</paths>

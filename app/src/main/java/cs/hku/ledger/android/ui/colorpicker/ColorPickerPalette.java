@@ -26,8 +26,8 @@ import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
-import org.gnucash.android.R;
-import org.gnucash.android.ui.colorpicker.ColorPickerSwatch.OnColorSelectedListener;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.ui.colorpicker.ColorPickerSwatch.OnColorSelectedListener;
 
 /**
  * A color picker custom view which creates an grid of color squares.  The number of squares per

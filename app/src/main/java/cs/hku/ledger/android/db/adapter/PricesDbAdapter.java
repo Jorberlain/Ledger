@@ -6,11 +6,11 @@ import android.database.sqlite.SQLiteStatement;
 import android.support.annotation.NonNull;
 import android.util.Pair;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.model.Price;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.model.Price;
+import cs.hku.ledger.android.util.TimestampHelper;
 
-import static org.gnucash.android.db.DatabaseSchema.PriceEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.PriceEntry;
 
 /**
  * Database adapter for prices

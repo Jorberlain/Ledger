@@ -27,10 +27,10 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.widget.Toast;
 
-import org.gnucash.android.R;
-import org.gnucash.android.ui.common.UxArgument;
-import org.gnucash.android.ui.passcode.PasscodeLockScreenActivity;
-import org.gnucash.android.ui.passcode.PasscodePreferenceActivity;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.ui.common.UxArgument;
+import cs.hku.ledger.android.ui.passcode.PasscodeLockScreenActivity;
+import cs.hku.ledger.android.ui.passcode.PasscodePreferenceActivity;
 
 /**
  * Fragment for general preferences. Currently caters to the passcode and reporting preferences

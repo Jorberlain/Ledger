@@ -31,23 +31,23 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.export.ExportFormat;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.importer.CommoditiesXmlHandler;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.model.BaseModel;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.model.Recurrence;
-import org.gnucash.android.model.ScheduledAction;
-import org.gnucash.android.model.Transaction;
-import org.gnucash.android.service.ScheduledActionService;
-import org.gnucash.android.util.PreferencesHelper;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.export.ExportFormat;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.importer.CommoditiesXmlHandler;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.model.BaseModel;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.model.Recurrence;
+import cs.hku.ledger.android.model.ScheduledAction;
+import cs.hku.ledger.android.model.Transaction;
+import cs.hku.ledger.android.service.ScheduledActionService;
+import cs.hku.ledger.android.util.PreferencesHelper;
+import cs.hku.ledger.android.util.TimestampHelper;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
@@ -73,16 +73,16 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import static org.gnucash.android.db.DatabaseSchema.AccountEntry;
-import static org.gnucash.android.db.DatabaseSchema.BudgetAmountEntry;
-import static org.gnucash.android.db.DatabaseSchema.BudgetEntry;
-import static org.gnucash.android.db.DatabaseSchema.CommodityEntry;
-import static org.gnucash.android.db.DatabaseSchema.CommonColumns;
-import static org.gnucash.android.db.DatabaseSchema.PriceEntry;
-import static org.gnucash.android.db.DatabaseSchema.RecurrenceEntry;
-import static org.gnucash.android.db.DatabaseSchema.ScheduledActionEntry;
-import static org.gnucash.android.db.DatabaseSchema.SplitEntry;
-import static org.gnucash.android.db.DatabaseSchema.TransactionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.AccountEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.BudgetAmountEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.BudgetEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.CommodityEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.CommonColumns;
+import static cs.hku.ledger.android.db.DatabaseSchema.PriceEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.RecurrenceEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.ScheduledActionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.SplitEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.TransactionEntry;
 
 /**
  * Collection of helper methods which are used during database migrations

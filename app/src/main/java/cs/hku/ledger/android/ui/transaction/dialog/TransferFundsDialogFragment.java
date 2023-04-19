@@ -34,15 +34,15 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
-import org.gnucash.android.db.adapter.PricesDbAdapter;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.model.Price;
-import org.gnucash.android.ui.transaction.OnTransferFundsListener;
-import org.gnucash.android.ui.transaction.TransactionsActivity;
-import org.gnucash.android.util.AmountParser;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.db.adapter.PricesDbAdapter;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.model.Price;
+import cs.hku.ledger.android.ui.transaction.OnTransferFundsListener;
+import cs.hku.ledger.android.ui.transaction.TransactionsActivity;
+import cs.hku.ledger.android.util.AmountParser;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

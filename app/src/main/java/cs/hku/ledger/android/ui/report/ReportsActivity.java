@@ -37,13 +37,13 @@ import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.Spinner;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.ui.common.BaseDrawerActivity;
-import org.gnucash.android.ui.common.Refreshable;
-import org.gnucash.android.ui.util.dialog.DateRangePickerDialogFragment;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.ui.common.BaseDrawerActivity;
+import cs.hku.ledger.android.ui.common.Refreshable;
+import cs.hku.ledger.android.ui.util.dialog.DateRangePickerDialogFragment;
 import org.joda.time.LocalDate;
 
 import java.util.Calendar;

@@ -27,7 +27,7 @@ import com.owncloud.android.lib.resources.files.FileUtils;
 import com.owncloud.android.lib.resources.status.GetRemoteStatusOperation;
 import com.owncloud.android.lib.resources.users.GetRemoteUserInfoOperation;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 
 /**
  * A fragment for adding an ownCloud account.

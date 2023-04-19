@@ -16,7 +16,7 @@
 
 package cs.hku.ledger.android.ui.transaction;
 
-import org.gnucash.android.model.Money;
+import cs.hku.ledger.android.model.Money;
 
 /**
  * Interface to be implemented by classes which start the transfer funds fragment

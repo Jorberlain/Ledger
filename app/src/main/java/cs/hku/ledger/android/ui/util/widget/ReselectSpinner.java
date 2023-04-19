@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.AdapterView;
 
-import org.gnucash.android.ui.export.ExportFormFragment;
+import cs.hku.ledger.android.ui.export.ExportFormFragment;
 
 /**
  * Spinner which fires OnItemSelectedListener even when an item is reselected.

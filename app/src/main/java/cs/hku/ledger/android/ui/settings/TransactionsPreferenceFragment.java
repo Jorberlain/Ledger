@@ -24,13 +24,13 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.SwitchPreferenceCompat;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.ui.settings.dialog.DeleteAllTransactionsConfirmationDialog;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.ui.settings.dialog.DeleteAllTransactionsConfirmationDialog;
 
 import java.util.Currency;
 import java.util.List;

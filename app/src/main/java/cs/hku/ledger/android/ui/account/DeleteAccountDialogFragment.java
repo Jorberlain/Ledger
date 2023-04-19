@@ -30,17 +30,17 @@ import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.SplitsDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.ui.common.Refreshable;
-import org.gnucash.android.ui.homescreen.WidgetConfigurationActivity;
-import org.gnucash.android.util.BackupManager;
-import org.gnucash.android.util.QualifiedAccountNameCursorAdapter;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.SplitsDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.ui.common.Refreshable;
+import cs.hku.ledger.android.ui.homescreen.WidgetConfigurationActivity;
+import cs.hku.ledger.android.util.BackupManager;
+import cs.hku.ledger.android.util.QualifiedAccountNameCursorAdapter;
 
 import java.util.List;
 

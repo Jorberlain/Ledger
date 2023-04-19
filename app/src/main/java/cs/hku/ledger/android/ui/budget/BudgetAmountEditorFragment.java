@@ -37,15 +37,15 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.model.BudgetAmount;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.ui.common.UxArgument;
-import org.gnucash.android.ui.util.widget.CalculatorEditText;
-import org.gnucash.android.util.QualifiedAccountNameCursorAdapter;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.model.BudgetAmount;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.ui.common.UxArgument;
+import cs.hku.ledger.android.ui.util.widget.CalculatorEditText;
+import cs.hku.ledger.android.util.QualifiedAccountNameCursorAdapter;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

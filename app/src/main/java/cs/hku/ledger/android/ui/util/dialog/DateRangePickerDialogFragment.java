@@ -28,7 +28,7 @@ import android.widget.Button;
 
 import com.squareup.timessquare.CalendarPickerView;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 import org.joda.time.LocalDate;
 
 import java.util.Calendar;

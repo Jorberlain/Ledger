@@ -23,7 +23,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 
 /**
  * Welcome page fragment is the first fragment that will be displayed to the user

@@ -20,9 +20,9 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.ui.util.RecurrenceParser;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.ui.util.RecurrenceParser;
 import org.joda.time.Days;
 import org.joda.time.Hours;
 import org.joda.time.LocalDate;

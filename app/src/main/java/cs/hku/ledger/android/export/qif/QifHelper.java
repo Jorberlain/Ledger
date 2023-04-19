@@ -17,7 +17,7 @@
 
 package cs.hku.ledger.android.export.qif;
 
-import org.gnucash.android.model.AccountType;
+import cs.hku.ledger.android.model.AccountType;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

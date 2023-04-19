@@ -27,20 +27,20 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseHelper;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.db.adapter.DatabaseAdapter;
-import org.gnucash.android.db.adapter.RecurrenceDbAdapter;
-import org.gnucash.android.db.adapter.ScheduledActionDbAdapter;
-import org.gnucash.android.db.adapter.SplitsDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.export.ExportAsyncTask;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.model.Book;
-import org.gnucash.android.model.ScheduledAction;
-import org.gnucash.android.model.Transaction;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseHelper;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.db.adapter.DatabaseAdapter;
+import cs.hku.ledger.android.db.adapter.RecurrenceDbAdapter;
+import cs.hku.ledger.android.db.adapter.ScheduledActionDbAdapter;
+import cs.hku.ledger.android.db.adapter.SplitsDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.export.ExportAsyncTask;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.model.Book;
+import cs.hku.ledger.android.model.ScheduledAction;
+import cs.hku.ledger.android.model.Transaction;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;

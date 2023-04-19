@@ -21,10 +21,10 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.ui.common.Refreshable;
-import org.gnucash.android.util.BackupManager;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.ui.common.Refreshable;
+import cs.hku.ledger.android.util.BackupManager;
 
 /**
  * Confirmation dialog for deleting a book.

@@ -26,20 +26,20 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.model.Split;
-import org.gnucash.android.model.TransactionType;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.model.Split;
+import cs.hku.ledger.android.model.TransactionType;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.gnucash.android.db.DatabaseSchema.SplitEntry;
-import static org.gnucash.android.db.DatabaseSchema.TransactionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.SplitEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.TransactionEntry;
 
 /**
  * Database adapter for managing transaction splits in the database

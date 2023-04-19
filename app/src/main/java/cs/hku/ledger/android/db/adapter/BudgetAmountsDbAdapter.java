@@ -20,14 +20,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.model.BudgetAmount;
-import org.gnucash.android.model.Money;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.model.BudgetAmount;
+import cs.hku.ledger.android.model.Money;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.gnucash.android.db.DatabaseSchema.BudgetAmountEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.BudgetAmountEntry;
 
 /**
  * Database adapter for {@link BudgetAmount}s

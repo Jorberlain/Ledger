@@ -24,29 +24,29 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
-import org.gnucash.android.db.adapter.RecurrenceDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.export.ExportFormat;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.model.Account;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.model.BaseModel;
-import org.gnucash.android.model.Book;
-import org.gnucash.android.model.Budget;
-import org.gnucash.android.model.BudgetAmount;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.model.PeriodType;
-import org.gnucash.android.model.Recurrence;
-import org.gnucash.android.model.ScheduledAction;
-import org.gnucash.android.model.TransactionType;
-import org.gnucash.android.util.BookUtils;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.db.adapter.RecurrenceDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.export.ExportFormat;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.model.Account;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.model.BaseModel;
+import cs.hku.ledger.android.model.Book;
+import cs.hku.ledger.android.model.Budget;
+import cs.hku.ledger.android.model.BudgetAmount;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.model.PeriodType;
+import cs.hku.ledger.android.model.Recurrence;
+import cs.hku.ledger.android.model.ScheduledAction;
+import cs.hku.ledger.android.model.TransactionType;
+import cs.hku.ledger.android.util.BookUtils;
+import cs.hku.ledger.android.util.TimestampHelper;
 import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlSerializer;
 
@@ -65,9 +65,9 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.zip.GZIPOutputStream;
 
-import static org.gnucash.android.db.DatabaseSchema.ScheduledActionEntry;
-import static org.gnucash.android.db.DatabaseSchema.SplitEntry;
-import static org.gnucash.android.db.DatabaseSchema.TransactionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.ScheduledActionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.SplitEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.TransactionEntry;
 
 /**
  * Creates a GnuCash XML representation of the accounts and transactions

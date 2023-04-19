@@ -22,9 +22,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 
-import org.gnucash.android.BuildConfig;
-import org.gnucash.android.R;
-import org.gnucash.android.ui.account.AccountsActivity;
+import cs.hku.ledger.android.BuildConfig;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.ui.account.AccountsActivity;
 
 
 /**

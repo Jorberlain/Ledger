@@ -22,10 +22,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.DatabaseAdapter;
-import org.gnucash.android.model.Account;
-import org.gnucash.android.model.Commodity;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.DatabaseAdapter;
+import cs.hku.ledger.android.model.Account;
+import cs.hku.ledger.android.model.Commodity;
 
 /**
  * Broadcast receiver responsible for creating {@link Account}s received through intents.

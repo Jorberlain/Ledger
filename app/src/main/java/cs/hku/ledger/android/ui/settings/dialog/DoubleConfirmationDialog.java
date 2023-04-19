@@ -23,7 +23,7 @@ import android.support.v7.app.AlertDialog;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 
 /**
  * Confirmation dialog with additional checkbox to confirm the action.

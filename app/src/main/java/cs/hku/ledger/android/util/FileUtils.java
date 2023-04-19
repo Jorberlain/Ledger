@@ -3,7 +3,7 @@ package cs.hku.ledger.android.util;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import org.gnucash.android.export.ExportAsyncTask;
+import cs.hku.ledger.android.export.ExportAsyncTask;
 
 import java.io.File;
 import java.io.FileInputStream;

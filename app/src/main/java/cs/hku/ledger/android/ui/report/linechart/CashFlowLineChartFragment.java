@@ -32,14 +32,14 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.highlight.Highlight;
 import com.github.mikephil.charting.utils.LargeValueFormatter;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.model.Account;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.ui.report.BaseReportFragment;
-import org.gnucash.android.ui.report.ReportType;
-import org.gnucash.android.ui.report.ReportsActivity.GroupInterval;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.model.Account;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.ui.report.BaseReportFragment;
+import cs.hku.ledger.android.ui.report.ReportType;
+import cs.hku.ledger.android.ui.report.ReportsActivity.GroupInterval;
 import org.joda.time.LocalDate;
 import org.joda.time.LocalDateTime;
 

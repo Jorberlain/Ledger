@@ -25,9 +25,9 @@ import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.android.Auth;
 import com.dropbox.core.v2.DbxClientV2;
 
-import org.gnucash.android.BuildConfig;
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
+import cs.hku.ledger.BuildConfig;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
 
 /**
  * Helper class for commonly used DropBox methods

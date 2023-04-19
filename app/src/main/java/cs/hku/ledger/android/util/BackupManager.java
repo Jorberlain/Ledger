@@ -27,15 +27,15 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.export.ExportFormat;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.export.xml.GncXmlExporter;
-import org.gnucash.android.model.Book;
-import org.gnucash.android.receivers.PeriodicJobReceiver;
-import org.gnucash.android.ui.settings.PreferenceActivity;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.export.ExportFormat;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.export.xml.GncXmlExporter;
+import cs.hku.ledger.android.model.Book;
+import cs.hku.ledger.android.receivers.PeriodicJobReceiver;
+import cs.hku.ledger.android.ui.settings.PreferenceActivity;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

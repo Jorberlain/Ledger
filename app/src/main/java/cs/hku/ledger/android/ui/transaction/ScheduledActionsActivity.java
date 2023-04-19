@@ -23,9 +23,9 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 
-import org.gnucash.android.R;
-import org.gnucash.android.model.ScheduledAction;
-import org.gnucash.android.ui.common.BaseDrawerActivity;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.model.ScheduledAction;
+import cs.hku.ledger.android.ui.common.BaseDrawerActivity;
 
 /**
  * Activity for displaying scheduled actions

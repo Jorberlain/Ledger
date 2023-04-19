@@ -43,20 +43,20 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseCursorLoader;
-import org.gnucash.android.db.DatabaseHelper;
-import org.gnucash.android.db.DatabaseSchema.BookEntry;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.db.adapter.SplitsDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.ui.account.AccountsActivity;
-import org.gnucash.android.ui.common.Refreshable;
-import org.gnucash.android.ui.settings.dialog.DeleteBookConfirmationDialog;
-import org.gnucash.android.util.BookUtils;
-import org.gnucash.android.util.PreferencesHelper;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseCursorLoader;
+import cs.hku.ledger.android.db.DatabaseHelper;
+import cs.hku.ledger.android.db.DatabaseSchema.BookEntry;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.db.adapter.SplitsDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.ui.account.AccountsActivity;
+import cs.hku.ledger.android.ui.common.Refreshable;
+import cs.hku.ledger.android.ui.settings.dialog.DeleteBookConfirmationDialog;
+import cs.hku.ledger.android.util.BookUtils;
+import cs.hku.ledger.android.util.PreferencesHelper;
 
 import java.sql.Timestamp;
 

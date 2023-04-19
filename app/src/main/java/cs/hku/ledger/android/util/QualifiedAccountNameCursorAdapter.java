@@ -25,9 +25,9 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
 
 /**
  * Cursor adapter which looks up the fully qualified account name and returns that instead of just the simple name.

@@ -23,15 +23,15 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.R;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.model.Account;
-import org.gnucash.android.model.Split;
-import org.gnucash.android.model.Transaction;
-import org.gnucash.android.model.TransactionType;
-import org.gnucash.android.util.PreferencesHelper;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.model.Account;
+import cs.hku.ledger.android.model.Split;
+import cs.hku.ledger.android.model.Transaction;
+import cs.hku.ledger.android.model.TransactionType;
+import cs.hku.ledger.android.util.PreferencesHelper;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.io.FileWriter;
 import java.io.IOException;

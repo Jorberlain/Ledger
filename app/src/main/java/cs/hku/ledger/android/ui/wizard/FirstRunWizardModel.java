@@ -23,8 +23,8 @@ import com.tech.freak.wizardpager.model.Page;
 import com.tech.freak.wizardpager.model.PageList;
 import com.tech.freak.wizardpager.model.SingleFixedChoicePage;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
 
 import java.util.Arrays;
 import java.util.Set;

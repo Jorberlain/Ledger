@@ -5,7 +5,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
 
 import java.sql.Timestamp;
 

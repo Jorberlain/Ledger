@@ -24,8 +24,8 @@ import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.model.Commodity;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.model.Commodity;
 import org.xml.sax.SAXException;
 
 import java.io.IOException;
@@ -34,16 +34,16 @@ import java.lang.reflect.Method;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-import static org.gnucash.android.db.DatabaseSchema.AccountEntry;
-import static org.gnucash.android.db.DatabaseSchema.BudgetAmountEntry;
-import static org.gnucash.android.db.DatabaseSchema.BudgetEntry;
-import static org.gnucash.android.db.DatabaseSchema.CommodityEntry;
-import static org.gnucash.android.db.DatabaseSchema.CommonColumns;
-import static org.gnucash.android.db.DatabaseSchema.PriceEntry;
-import static org.gnucash.android.db.DatabaseSchema.RecurrenceEntry;
-import static org.gnucash.android.db.DatabaseSchema.ScheduledActionEntry;
-import static org.gnucash.android.db.DatabaseSchema.SplitEntry;
-import static org.gnucash.android.db.DatabaseSchema.TransactionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.AccountEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.BudgetAmountEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.BudgetEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.CommodityEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.CommonColumns;
+import static cs.hku.ledger.android.db.DatabaseSchema.PriceEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.RecurrenceEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.ScheduledActionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.SplitEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.TransactionEntry;
 /**
  * Helper class for managing the SQLite database.
  * Creates the database and handles upgrades

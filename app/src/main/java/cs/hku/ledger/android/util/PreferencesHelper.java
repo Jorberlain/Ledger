@@ -18,9 +18,9 @@ package cs.hku.ledger.android.util;
 import android.content.Context;
 import android.util.Log;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.ui.settings.PreferenceActivity;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.ui.settings.PreferenceActivity;
 
 import java.sql.Timestamp;
 

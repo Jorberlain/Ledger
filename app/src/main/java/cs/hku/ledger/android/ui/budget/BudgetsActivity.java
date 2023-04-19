@@ -21,11 +21,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.ui.common.BaseDrawerActivity;
-import org.gnucash.android.ui.common.FormActivity;
-import org.gnucash.android.ui.common.UxArgument;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.ui.common.BaseDrawerActivity;
+import cs.hku.ledger.android.ui.common.FormActivity;
+import cs.hku.ledger.android.ui.common.UxArgument;
 
 /**
  * Activity for managing display and editing of budgets

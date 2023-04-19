@@ -20,10 +20,10 @@ import android.database.sqlite.SQLiteDatabase;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.R;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.model.Account;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.model.Account;
 
 import java.io.FileWriter;
 import java.io.IOException;

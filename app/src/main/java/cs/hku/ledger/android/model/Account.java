@@ -20,8 +20,8 @@ package cs.hku.ledger.android.model;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.BuildConfig;
-import org.gnucash.android.export.ofx.OfxHelper;
+import cs.hku.ledger.android.BuildConfig;
+import cs.hku.ledger.android.export.ofx.OfxHelper;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

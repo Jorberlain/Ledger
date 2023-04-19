@@ -19,10 +19,10 @@ package cs.hku.ledger.android.model;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.BuildConfig;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.export.ofx.OfxHelper;
-import org.gnucash.android.model.Account.OfxAccountType;
+import cs.hku.ledger.android.BuildConfig;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.export.ofx.OfxHelper;
+import cs.hku.ledger.android.model.Account.OfxAccountType;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

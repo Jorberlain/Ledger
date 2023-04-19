@@ -24,14 +24,14 @@ import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.DatabaseSchema.AccountEntry;
-import org.gnucash.android.db.DatabaseSchema.CommonColumns;
-import org.gnucash.android.db.DatabaseSchema.SplitEntry;
-import org.gnucash.android.db.DatabaseSchema.TransactionEntry;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.model.BaseModel;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.DatabaseSchema.AccountEntry;
+import cs.hku.ledger.android.db.DatabaseSchema.CommonColumns;
+import cs.hku.ledger.android.db.DatabaseSchema.SplitEntry;
+import cs.hku.ledger.android.db.DatabaseSchema.TransactionEntry;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.model.BaseModel;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.util.ArrayList;
 import java.util.List;

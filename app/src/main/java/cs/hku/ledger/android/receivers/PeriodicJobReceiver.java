@@ -20,8 +20,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import org.gnucash.android.service.ScheduledActionService;
-import org.gnucash.android.util.BackupJob;
+import cs.hku.ledger.android.service.ScheduledActionService;
+import cs.hku.ledger.android.util.BackupJob;
 
 /**
  * Receiver to run periodic jobs.

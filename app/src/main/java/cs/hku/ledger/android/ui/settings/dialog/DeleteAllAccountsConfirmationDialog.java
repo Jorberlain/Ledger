@@ -22,10 +22,10 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.ui.homescreen.WidgetConfigurationActivity;
-import org.gnucash.android.util.BackupManager;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.ui.homescreen.WidgetConfigurationActivity;
+import cs.hku.ledger.android.util.BackupManager;
 
 /**
  * Confirmation dialog for deleting all accounts from the system.

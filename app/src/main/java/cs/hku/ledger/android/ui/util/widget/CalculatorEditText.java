@@ -35,10 +35,10 @@ import com.crashlytics.android.Crashlytics;
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
 
-import org.gnucash.android.R;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.ui.common.FormActivity;
-import org.gnucash.android.util.AmountParser;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.ui.common.FormActivity;
+import cs.hku.ledger.android.util.AmountParser;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

@@ -23,10 +23,10 @@ import android.util.AttributeSet;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import org.gnucash.android.R;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.model.Transaction;
-import org.gnucash.android.model.TransactionType;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.model.Transaction;
+import cs.hku.ledger.android.model.TransactionType;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

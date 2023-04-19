@@ -18,8 +18,8 @@ package cs.hku.ledger.android.importer;
 
 import android.util.Log;
 
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.util.PreferencesHelper;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.util.PreferencesHelper;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;

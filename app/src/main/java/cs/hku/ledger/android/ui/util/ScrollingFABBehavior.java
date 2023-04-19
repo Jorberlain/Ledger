@@ -25,7 +25,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 
 /**
  * Behavior for floating action button when list is scrolled

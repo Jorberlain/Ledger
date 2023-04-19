@@ -26,19 +26,19 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.ui.account.AccountFormFragment;
-import org.gnucash.android.ui.budget.BudgetAmountEditorFragment;
-import org.gnucash.android.ui.budget.BudgetFormFragment;
-import org.gnucash.android.ui.export.ExportFormFragment;
-import org.gnucash.android.ui.passcode.PasscodeLockActivity;
-import org.gnucash.android.ui.transaction.SplitEditorFragment;
-import org.gnucash.android.ui.transaction.TransactionFormFragment;
-import org.gnucash.android.ui.util.widget.CalculatorKeyboard;
-import org.gnucash.android.util.BookUtils;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.ui.account.AccountFormFragment;
+import cs.hku.ledger.android.ui.budget.BudgetAmountEditorFragment;
+import cs.hku.ledger.android.ui.budget.BudgetFormFragment;
+import cs.hku.ledger.android.ui.export.ExportFormFragment;
+import cs.hku.ledger.android.ui.passcode.PasscodeLockActivity;
+import cs.hku.ledger.android.ui.transaction.SplitEditorFragment;
+import cs.hku.ledger.android.ui.transaction.TransactionFormFragment;
+import cs.hku.ledger.android.ui.util.widget.CalculatorKeyboard;
+import cs.hku.ledger.android.util.BookUtils;
 
 /**
  * Activity for displaying forms in the application.

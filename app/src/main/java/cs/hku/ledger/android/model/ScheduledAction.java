@@ -18,8 +18,8 @@ package cs.hku.ledger.android.model;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
 import org.joda.time.LocalDateTime;
 
 import java.sql.Timestamp;

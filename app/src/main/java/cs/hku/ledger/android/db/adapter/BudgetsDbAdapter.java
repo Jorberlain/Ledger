@@ -22,13 +22,13 @@ import android.database.sqlite.SQLiteQueryBuilder;
 import android.database.sqlite.SQLiteStatement;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema.BudgetAmountEntry;
-import org.gnucash.android.db.DatabaseSchema.BudgetEntry;
-import org.gnucash.android.model.Budget;
-import org.gnucash.android.model.BudgetAmount;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.model.Recurrence;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema.BudgetAmountEntry;
+import cs.hku.ledger.android.db.DatabaseSchema.BudgetEntry;
+import cs.hku.ledger.android.model.Budget;
+import cs.hku.ledger.android.model.BudgetAmount;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.model.Recurrence;
 
 import java.util.ArrayList;
 import java.util.List;

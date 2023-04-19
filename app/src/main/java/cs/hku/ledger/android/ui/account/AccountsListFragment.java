@@ -49,22 +49,22 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseCursorLoader;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.BudgetsDbAdapter;
-import org.gnucash.android.model.Account;
-import org.gnucash.android.model.Budget;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.ui.common.FormActivity;
-import org.gnucash.android.ui.common.Refreshable;
-import org.gnucash.android.ui.common.UxArgument;
-import org.gnucash.android.ui.util.AccountBalanceTask;
-import org.gnucash.android.ui.util.CursorRecyclerAdapter;
-import org.gnucash.android.ui.util.widget.EmptyRecyclerView;
-import org.gnucash.android.util.BackupManager;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseCursorLoader;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.BudgetsDbAdapter;
+import cs.hku.ledger.android.model.Account;
+import cs.hku.ledger.android.model.Budget;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.ui.common.FormActivity;
+import cs.hku.ledger.android.ui.common.Refreshable;
+import cs.hku.ledger.android.ui.common.UxArgument;
+import cs.hku.ledger.android.ui.util.AccountBalanceTask;
+import cs.hku.ledger.android.ui.util.CursorRecyclerAdapter;
+import cs.hku.ledger.android.ui.util.widget.EmptyRecyclerView;
+import cs.hku.ledger.android.util.BackupManager;
 
 import java.util.List;
 

@@ -21,14 +21,14 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.annotation.NonNull;
 
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.TransactionsDbAdapter;
-import org.gnucash.android.export.ExportParams;
-import org.gnucash.android.export.Exporter;
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.util.FileUtils;
-import org.gnucash.android.util.PreferencesHelper;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.TransactionsDbAdapter;
+import cs.hku.ledger.android.export.ExportParams;
+import cs.hku.ledger.android.export.Exporter;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.util.FileUtils;
+import cs.hku.ledger.android.util.PreferencesHelper;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -44,9 +44,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
-import static org.gnucash.android.db.DatabaseSchema.AccountEntry;
-import static org.gnucash.android.db.DatabaseSchema.SplitEntry;
-import static org.gnucash.android.db.DatabaseSchema.TransactionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.AccountEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.SplitEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.TransactionEntry;
 
 /**
  * Exports the accounts and transactions in the database to the QIF format

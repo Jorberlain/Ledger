@@ -23,8 +23,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.gnucash.android.R;
-import org.gnucash.android.ui.common.UxArgument;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.ui.common.UxArgument;
 
 /**
  * Activity for entering and confirming passcode

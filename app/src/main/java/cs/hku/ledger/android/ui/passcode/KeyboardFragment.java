@@ -25,7 +25,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 
 /**
  * Soft numeric keyboard for lock screen and passcode preference.

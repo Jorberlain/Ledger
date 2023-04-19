@@ -51,21 +51,21 @@ import android.widget.Toast;
 import com.crashlytics.android.Crashlytics;
 import com.kobakei.ratethisapp.RateThisApp;
 
-import org.gnucash.android.BuildConfig;
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.AccountsDbAdapter;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.importer.ImportAsyncTask;
-import org.gnucash.android.ui.common.BaseDrawerActivity;
-import org.gnucash.android.ui.common.FormActivity;
-import org.gnucash.android.ui.common.Refreshable;
-import org.gnucash.android.ui.common.UxArgument;
-import org.gnucash.android.ui.transaction.TransactionsActivity;
-import org.gnucash.android.ui.util.TaskDelegate;
-import org.gnucash.android.ui.wizard.FirstRunWizardActivity;
-import org.gnucash.android.util.BackupManager;
+import cs.hku.ledger.android.BuildConfig;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.importer.ImportAsyncTask;
+import cs.hku.ledger.android.ui.common.BaseDrawerActivity;
+import cs.hku.ledger.android.ui.common.FormActivity;
+import cs.hku.ledger.android.ui.common.Refreshable;
+import cs.hku.ledger.android.ui.common.UxArgument;
+import cs.hku.ledger.android.ui.transaction.TransactionsActivity;
+import cs.hku.ledger.android.ui.util.TaskDelegate;
+import cs.hku.ledger.android.ui.wizard.FirstRunWizardActivity;
+import cs.hku.ledger.android.util.BackupManager;
 
 import butterknife.BindView;
 

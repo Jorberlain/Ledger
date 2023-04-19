@@ -17,7 +17,7 @@ package cs.hku.ledger.android.util;
 
 import android.util.Log;
 
-import org.gnucash.android.db.MigrationHelper;
+import cs.hku.ledger.android.db.MigrationHelper;
 
 import java.io.File;
 import java.io.FileInputStream;

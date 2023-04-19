@@ -47,11 +47,11 @@ import com.tech.freak.wizardpager.ui.PageFragmentCallbacks;
 import com.tech.freak.wizardpager.ui.ReviewFragment;
 import com.tech.freak.wizardpager.ui.StepPagerStrip;
 
-import org.gnucash.android.R;
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.ui.account.AccountsActivity;
-import org.gnucash.android.ui.util.TaskDelegate;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.ui.account.AccountsActivity;
+import cs.hku.ledger.android.ui.util.TaskDelegate;
 
 import java.util.ArrayList;
 import java.util.List;

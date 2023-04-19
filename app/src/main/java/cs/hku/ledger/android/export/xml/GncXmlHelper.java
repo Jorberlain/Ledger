@@ -17,8 +17,8 @@
 
 package cs.hku.ledger.android.export.xml;
 
-import org.gnucash.android.model.Commodity;
-import org.gnucash.android.ui.transaction.TransactionFormFragment;
+import cs.hku.ledger.android.model.Commodity;
+import cs.hku.ledger.android.ui.transaction.TransactionFormFragment;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

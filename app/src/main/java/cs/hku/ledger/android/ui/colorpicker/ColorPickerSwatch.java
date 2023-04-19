@@ -24,7 +24,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 
 /**
  * Creates a circular swatch of a specified color.  Adds a checkmark if marked as checked.

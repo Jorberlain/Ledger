@@ -26,9 +26,9 @@ import android.widget.ListView;
 
 import com.tech.freak.wizardpager.ui.PageFragmentCallbacks;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.adapter.CommoditiesDbAdapter;
-import org.gnucash.android.util.CommoditiesCursorAdapter;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.adapter.CommoditiesDbAdapter;
+import cs.hku.ledger.android.util.CommoditiesCursorAdapter;
 
 import butterknife.ButterKnife;
 

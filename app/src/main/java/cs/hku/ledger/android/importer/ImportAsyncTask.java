@@ -30,11 +30,11 @@ import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.R;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.db.adapter.BooksDbAdapter;
-import org.gnucash.android.ui.util.TaskDelegate;
-import org.gnucash.android.util.BookUtils;
+import cs.hku.ledger.R;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.db.adapter.BooksDbAdapter;
+import cs.hku.ledger.android.ui.util.TaskDelegate;
+import cs.hku.ledger.android.util.BookUtils;
 
 import java.io.InputStream;
 

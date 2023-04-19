@@ -20,8 +20,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.util.BackupManager;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.util.BackupManager;
 
 /**
  * Receiver which is called when the device finishes booting.

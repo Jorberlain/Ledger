@@ -21,7 +21,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.QuickContactBadge;
 
-import org.gnucash.android.R;
+import cs.hku.ledger.R;
 
 /**
  * The color square used as an entry point to launching the {@link ColorPickerDialog}.

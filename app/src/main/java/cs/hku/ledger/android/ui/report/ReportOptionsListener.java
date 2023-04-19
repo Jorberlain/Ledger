@@ -15,7 +15,7 @@
  */
 package cs.hku.ledger.android.ui.report;
 
-import org.gnucash.android.model.AccountType;
+import cs.hku.ledger.android.model.AccountType;
 
 /**
  * Listener interface for passing reporting options from activity to the report fragments

@@ -30,21 +30,21 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.model.AccountType;
-import org.gnucash.android.model.Money;
-import org.gnucash.android.model.Split;
-import org.gnucash.android.model.Transaction;
-import org.gnucash.android.util.TimestampHelper;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.model.AccountType;
+import cs.hku.ledger.android.model.Money;
+import cs.hku.ledger.android.model.Split;
+import cs.hku.ledger.android.model.Transaction;
+import cs.hku.ledger.android.util.TimestampHelper;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.gnucash.android.db.DatabaseSchema.AccountEntry;
-import static org.gnucash.android.db.DatabaseSchema.ScheduledActionEntry;
-import static org.gnucash.android.db.DatabaseSchema.SplitEntry;
-import static org.gnucash.android.db.DatabaseSchema.TransactionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.AccountEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.ScheduledActionEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.SplitEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.TransactionEntry;
 
 /**
  * Manages persistence of {@link Transaction}s in the database

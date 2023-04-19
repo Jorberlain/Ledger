@@ -8,11 +8,11 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 
-import org.gnucash.android.app.GnuCashApplication;
-import org.gnucash.android.db.DatabaseSchema;
-import org.gnucash.android.model.Commodity;
+import cs.hku.ledger.android.app.GnuCashApplication;
+import cs.hku.ledger.android.db.DatabaseSchema;
+import cs.hku.ledger.android.model.Commodity;
 
-import static org.gnucash.android.db.DatabaseSchema.CommodityEntry;
+import static cs.hku.ledger.android.db.DatabaseSchema.CommodityEntry;
 
 /**
  * Database adapter for {@link Commodity}
