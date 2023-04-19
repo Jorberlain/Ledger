@@ -28,6 +28,7 @@ android {
     }
 }
 
+
 dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -40,5 +41,13 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     //noinspection GradleCompatible
     implementation 'com.android.support:design:22.2.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:preference-v7:25.1.0'
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.0-beta04'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.3@aar') {
+        transitive = true;
+    }
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.uservoice:uservoice-android-sdk:4.1.0'
 }
 

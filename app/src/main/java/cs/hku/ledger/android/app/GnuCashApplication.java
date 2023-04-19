@@ -27,12 +27,15 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
-import android.support.multidex.MultiDexApplication;
+//import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
+
 import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
-import com.crashlytics.android.core.CrashlyticsCore;
+//import com.crashlytics.android.core.CrashlyticsCore;
+import com.google.firebase.crashlytics.internal.common.CrashlyticsCore;
 import com.uservoice.uservoicesdk.Config;
 import com.uservoice.uservoicesdk.UserVoice;
 
