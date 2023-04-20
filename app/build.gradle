@@ -51,5 +51,9 @@ dependencies {
 //    implementation 'com.uservoice:uservoice-android-sdk:4.1.0'
     implementation 'com.uservoice:uservoice-android-sdk:1.1.2'
     implementation 'joda-time:joda-time:2.10.10'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-compat:26.0.0'
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
 }
 
