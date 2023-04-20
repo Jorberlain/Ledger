@@ -19,7 +19,7 @@ package cs.hku.ledger.android.model;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import cs.hku.ledger.android.BuildConfig;
+import cs.hku.ledger.BuildConfig;
 import cs.hku.ledger.android.db.adapter.AccountsDbAdapter;
 import cs.hku.ledger.android.export.ofx.OfxHelper;
 import cs.hku.ledger.android.model.Account.OfxAccountType;

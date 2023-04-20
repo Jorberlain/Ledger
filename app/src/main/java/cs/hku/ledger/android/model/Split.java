@@ -399,7 +399,7 @@ public class Split extends BaseModel implements Parcelable{
 
     /**
      * Returns a string representation of the split which can be parsed again
-     * using {@link org.gnucash.android.model.Split#parseSplit(String)}
+     * using {/@link org.gnucash.android.model.Split#parseSplit(String)}
      *
      * <p>The string is formatted as:<br/>
      * "&lt;uid&gt;;&lt;valueNum&gt;;&lt;valueDenom&gt;;&lt;valueCurrencyCode&gt;;&lt;quantityNum&gt;;&lt;quantityDenom&gt;;&lt;quantityCurrencyCode&gt;;&lt;transaction_uid&gt;;&lt;account_uid&gt;;&lt;type&gt;;&lt;memo&gt;"

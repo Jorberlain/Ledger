@@ -23,7 +23,7 @@ import java.util.Locale;
 /**
 * Represents a type of period which can be associated with a recurring event
  * @author Ngewi Fet <ngewif@gmail.com>
- * @see org.gnucash.android.model.ScheduledAction
+ * /@see org.gnucash.android.model.ScheduledAction
 */
 public enum PeriodType {
     HOUR, DAY, WEEK, MONTH, YEAR;
