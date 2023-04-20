@@ -34,8 +34,8 @@ import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
-//import com.crashlytics.android.core.CrashlyticsCore;
-import com.google.firebase.crashlytics.internal.common.CrashlyticsCore;
+import com.crashlytics.android.core.CrashlyticsCore;
+//import com.google.firebase.crashlytics.internal.common.CrashlyticsCore;
 import com.uservoice.uservoicesdk.Config;
 import com.uservoice.uservoicesdk.UserVoice;
 
